@@ -1,3 +1,12 @@
-let number = prompt ('pick a number from 1-6?');
-
-alert (3); // true if 3 is pressed
+document.getElementById("myBtn").addEventListener("click", myFunction);
+let number = 0;
+function myFunction() {
+  number = document.getElementById("my text").value;
+  number= parseInt (number);
+  if (number == "3") {
+    alert("true")
+  }
+  else { 
+    alert("false")
+  }
+}
