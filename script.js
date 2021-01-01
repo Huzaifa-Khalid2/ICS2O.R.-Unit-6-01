@@ -1,13 +1,11 @@
 document.getElementById('my-btn').addEventListener('click', myFunction)
 let number = 0
-function myFunction() {
+function myFunction () {
   number = document.getElementById('my-text').value
-  number = parseInt (number)
+  number = parseInt(number)
   if (number == '3') {
-    alert ('true')
-  }
-  else 
-  { 
+    alert('true') }
+  else {
     alert('false')
   }
 }
