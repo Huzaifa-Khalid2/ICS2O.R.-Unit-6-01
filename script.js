@@ -5,7 +5,9 @@ function myFunction () {
   number = parseInt(number)
   if (number == '3') {
     alert('true') }
-  else {
+  else 
+  
+  {
     alert('false')
   }
 }
