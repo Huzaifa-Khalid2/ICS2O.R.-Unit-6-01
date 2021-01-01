@@ -3,10 +3,10 @@ let number = 0
 function myFunction () {
   number = document.getElementById('my-text').value
   number = parseInt(number)
-  if (number == '3') {
-    alert('true') }
-  else 
-  
+  if (number === '3') {
+    alert('true') 
+  }
+  else
   {
     alert('false')
   }
